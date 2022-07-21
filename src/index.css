@@ -11,3 +11,32 @@ body {
   font-size: 1.5em;
 }
 
+.terminal1 {
+  border-bottom: 1px solid white;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  padding-left: 1.5em;
+}
+
+input {
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: 'Ubuntu Mono';
+  font-size: 1em;
+}
+
+.green {
+  color: greenyellow;
+}
+
+.purple {
+  color: purple;
+}
+
+.blue {
+  color: blue;
+}
