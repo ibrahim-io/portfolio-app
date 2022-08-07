@@ -40,3 +40,11 @@ input {
 .blue {
   color: blue;
 }
+
+.gist__title {
+  color: greenyellow;
+}
+
+.gist__content {
+  max-width: 800px;
+}
