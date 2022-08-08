@@ -9,8 +9,27 @@ body {
   background-color: black;
   color: white;
   font-size: 1.5em;
+  overflow-y: scroll;
 }
 
+a {
+  text-decoration: none;
+}
+
+.neonText {
+  color: rgb(221, 255, 246);
+  text-shadow:
+    /* White glow */
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px #0fa,
+    0 0 82px rgb(224, 18, 211),
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
 /* Home component */
 .terminal1 {
   border-bottom: 1px solid white;
@@ -46,12 +65,32 @@ input {
 
 
 /*  WACC component */
-.gist__title {
-  color: greenyellow;
+
+.wacc_header {
+  margin-top: 2em;
+  margin-left: 0.5em;
 }
 
-.gist__content {
-  max-width: 800px;
+.text_container {
+  width: 70vw;
+  margin-left: 1em;
+}
+
+.wacc_btn {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.wacc_btn:hover {
+  margin-left: 0.4em;
+  transition: 0.1s ease-in;
+}
+
+.gist_redirect {
+  font-size: 1.2em;
+  text-align: right;
+  margin-right: 3em;
+  
 }
 
 /* End WACC Component*/
@@ -59,13 +98,13 @@ input {
 /* Window Template Component */
 
 .template_container {
-  width: 25vw;
+  width: 24vw;
   border: 1px solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 1em;
+  margin: 0.4em 1em;
 }
 
 @media only screen and (max-width: 900px) {
@@ -77,6 +116,15 @@ input {
 .gallery_img {
   max-width: 200px;
 }
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 0.8em;
+}
+
+
 
 /* End Window Template Component*/
 

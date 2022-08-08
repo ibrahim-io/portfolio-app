@@ -7,7 +7,7 @@ const WindowTemplate = ({image, header, link}) => {
       <img className='gallery_img' src={image} alt={header}/>
       <h4>{header}</h4>
       <Link to={link}>
-        <button>GO!</button>
+        <button className="btn neonText">GO &rarr; </button>
       </Link>
     </div>
   )
