@@ -1,4 +1,4 @@
-
+/*General*/
 body {
   margin: 0;
   font-family: 'Ubuntu Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,7 +15,6 @@ body {
 a {
   text-decoration: none;
 }
-
 .neonText {
   color: rgb(221, 255, 246);
   text-shadow:
@@ -30,6 +29,29 @@ a {
     0 0 102px #0fa,
     0 0 151px #0fa;
 }
+/*Projects styling*/
+.prj_btn {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.prj_btn:hover {
+  margin-left: 0.4em;
+  transition: 0.1s ease-in;
+}
+
+.prj_header {
+  margin-top: 2em;
+  margin-left: 0.5em;
+}
+
+.text_container {
+  width: 70vw;
+  margin-left: 1em;
+}
+
+/*End projects styling*/
+
 /* Home component */
 .terminal1 {
   border-bottom: 1px solid white;
@@ -66,25 +88,9 @@ input {
 
 /*  WACC component */
 
-.wacc_header {
-  margin-top: 2em;
-  margin-left: 0.5em;
-}
 
-.text_container {
-  width: 70vw;
-  margin-left: 1em;
-}
 
-.wacc_btn {
-  margin-top: 1em;
-  margin-left: 1em;
-}
 
-.wacc_btn:hover {
-  margin-left: 0.4em;
-  transition: 0.1s ease-in;
-}
 
 .gist_redirect {
   font-size: 1.2em;

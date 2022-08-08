@@ -3,9 +3,9 @@ const Wacc = () => {
   return (
     <div>
       <Link to='/gallery'>
-        <button className='btn neonText wacc_btn'>&larr; Back</button>
+        <button className='btn neonText prj_btn'>&larr; Back</button>
       </Link>
-      <h1 className='wacc_header'>WACC</h1>
+      <h1 className='prj_header'>WACC</h1>
       <div className='text_container'>
         <p>&rarr; In this project, I participated as part of a group to build a compiler</p>
         <p>&rarr; The WACC language was a language developed by Deparment of Computing at 
