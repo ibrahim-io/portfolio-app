@@ -21,7 +21,7 @@ const Home = () => {
         setError(false)
       }, 3000)
     } else {
-      navigate('/wacc')
+      navigate('/gallery')
     }
   }
 
