@@ -140,4 +140,21 @@ input {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.gallery_footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.gmail-container {
+  display: flex;
+  align-items: center;
+  margin: 0 2em;
+}
+
+.linkedin-container {
+  display: flex;
+  align-items: center;
+}
 /* End Gallery Component */

@@ -5,18 +5,14 @@ const RoommateFinder = () => {
       <Link to='/gallery'>
         <button className='btn neonText prj_btn'>&larr; Back</button>
       </Link>
-      <h1 className='prj_header'>WACC</h1>
+      <h1 className='prj_header'>Roommate Finder App</h1>
       <div className='text_container'>
-        <p>&rarr; In this project, I participated as part of a group to build a compiler</p>
-        <p>&rarr; The WACC language was a language developed by Deparment of Computing at 
-          Imperial College London</p>
-        <p>&rarr; We had to perform <span className='neonText'>Syntax Analysis</span> on any WACC file which would be done 
-        by the parser</p> 
-        <p>&rarr; The <span className='neonText'>Parser</span> would then output an <span className='neonText'>Abstract Syntax Tree</span></p>
-        <p>&rarr; We would the have to perform <span className='neonText'>Semantic Analysis   </span> 
-          on the <span className='neonText'>AST</span> to ensure the code is semantically correct</p>
+        <p>&rarr; In this project, I participated as part of a group to build a <span className="neonText">web app </span>which was 
+            designed to help students to find <span className="neonText">compatible </span>roommates</p>
+        <p>&rarr; We had to <span className="neonText">iteratively</span> improve on our touchpoint after getting feedback from students</p>
+        <p>&rarr; Although this project allowed me to hone my React skills in general, I also learnt a lot about how <span className="neonText">Human Centered Design </span>works</p>
       </div>
-      <p className='gist_redirect'><a className='neonText' href='https://gist.github.com/ibrahim-io/746bb0b794ad8d264268f749ffc87700' target='_blank' rel='noreferrer'>Go to Gist &rArr;</a></p>
+      <p className='gist_redirect'><a className='neonText' href='https://github.com/tahmid148/drp-finding-roommates' target='_blank' rel='noreferrer'>Go to Repo &rArr;</a></p>
     </div>
   )
 }
